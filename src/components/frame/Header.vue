@@ -3,7 +3,7 @@
     <b-card  no-body>
       <b-card-header  header-tag="nav" class="bg-success">
         <b-nav  card-header tabs>
-           <b-nav @click="redirect('/Login')" v-if="auth.user ===null" id="login">Sign In</b-nav>
+         <b-nav @click="redirect('/Login')" v-if="auth.user ===null" id="login">Sign In</b-nav>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <b-nav @click="redirect('/Register')" v-if="auth.user ===null" id="signup">Sign Up</b-nav>
         </b-nav>

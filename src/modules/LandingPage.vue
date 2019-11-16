@@ -1,15 +1,15 @@
 <template>
     <div class="circular" v-bind:style="{ 'background-image': 'url(  )' }">
         <!-- <img src = ""> -->
-        <p id="p">"Value everyone's comfort in the world of travel"</p>
+        <center><p id="p">"Value everyone's comfort in the world of travel"</p></center>
         <button id="btn">Learn more</button>
     </div>
 </template>
 <style>
 #p {
-    font-size:300%;
+    font-size:500%;
     margin-top:10%;
-    margin-left: 20%;
+    margin-left: 2%;
 }
 #btn {
     background-color: green;
@@ -19,6 +19,7 @@
     padding-right: 2%;
     padding-top:1%;
     padding-bottom: 1%;
+
 }
 div {
     /* background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvn1vhmcUVSTg3nxpYw6rfKXaApuXrjSnv4t62ozKeet_xUaceoQ&s);*/
