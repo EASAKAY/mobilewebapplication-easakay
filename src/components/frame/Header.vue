@@ -3,6 +3,7 @@
     <b-card  no-body>
       <b-card-header  header-tag="nav" class="bg-success">
         <b-nav  card-header tabs>
+          <p id="home">HOME</p>
          <b-nav @click="redirect('/Login')" v-if="auth.user ===null" id="login">Sign In</b-nav>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <b-nav @click="redirect('/Register')" v-if="auth.user ===null" id="signup">Sign Up</b-nav>
@@ -28,7 +29,9 @@
   right:130px;
  
 }
-
+#home{
+  color: white;
+}
 
 </style>
 <script>
