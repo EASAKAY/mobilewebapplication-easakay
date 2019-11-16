@@ -77,7 +77,7 @@
 </template>
 <style>
 .register{
-    background: -webkit-linear-gradient(left, #11b126, #00c6ff);
+    background: -webkit-linear-gradient(left, #049e18, #00c6ff);
     margin-top: 3%;
     padding: 3%;
 }

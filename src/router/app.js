@@ -10,7 +10,7 @@ export default {
         {
         path: '/Login',
         name: 'login',
-        component: resolve => require(['modules/sample.vue'], resolve),
+        component: resolve => require(['modules/SignUp.vue'], resolve),
         meta: {
             tokenRequired: false
         }
